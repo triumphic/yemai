@@ -1,0 +1,193 @@
+/*head*/
+.head{
+	width: 100%;
+	overflow: hidden;
+	border-bottom: 2px solid #bc0e31;
+}
+.head-in{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 20px 0;
+	height: auto;
+	overflow: hidden;
+}
+.head-in a{
+	display: block;
+	float: left;
+}
+.head-in .head-right{
+	float: right;
+}
+/*main*/
+.main{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.main-in{
+	width: 1200px;
+	margin: 0 auto;
+}
+.main-left{
+	float: left;
+	width: 770px;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+}
+.main-left img{
+	max-width: 520px;
+}
+.main-right{
+	padding: 4px;
+	float: right!important;
+}
+.main-right-in{
+	background: #fff;
+	border: 1px solid #ddd;
+	width: 405px;
+}
+.main-right-list{
+	padding: 70px 50px 0 35px;
+	background: url(../img/login_text.gif) no-repeat 30px 25px;
+}
+.main-right-list .txt-input{
+	width: 300px;
+	height: 32px;
+	line-height: 32px;
+	margin-top: 15px;
+}
+.main-right-list .txt-mobile{
+	background: url(../img/hint_logname.gif) no-repeat 5px 8px;
+}
+.main-right-list .txt-pwd{
+	background: url(../img/hint-password.gif) no-repeat 5px 8px;
+}
+.main-right-list .txt-css1{
+	background: #FFFFE8;
+}
+.main-right-list .txt-css2{
+	background: #FFFFE8;
+}
+.autologin{
+	margin: 10px 0;
+}
+.btn-login{
+	width: 300px;
+	height: 40px;
+	margin: 10px 0;
+	background: url(../img/btn_login.gif);
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	border: 0;
+}
+#login-pwd a{
+	text-decoration: none;
+	font-size: 14px;
+	margin: 10px 5px;
+}
+.hezuo{
+	color: #999;
+	padding: 0 30px 10px 30px;
+	border-top: 1px dotted #ccc;
+	margin-top: 15px;
+}
+.hezuo p{
+	font-size: 14px;
+	overflow: hidden;
+}
+.hezuo p a{
+	display: block;
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	width: 48px;
+	height: 48px;
+	overflow: hidden;
+}
+.hezuo p a.weixin{
+	background: url(../img/icon-pic.png) no-repeat -103px -3px;
+}
+.hezuo p a.alipay{
+	background: url(../img/icon-pic.png) no-repeat -50px -3px;
+}
+.hezuo p a.tencent{
+	background: url(../img/icon-pic.png) no-repeat 0px -3px;
+}
+.hezuo p a.weibo{
+	background: url(../img/icon-pic.png) no-repeat -155px -3px;
+}
+/*foot*/
+.foot-license{
+	display: inline-block;
+	color: #999;
+	text-align: center;
+	line-height: 20px;
+	width: 760px;
+	margin: 0 auto;
+}
+.foot-license span{
+	display: inline-block;
+	height: 20px;
+	background-position: 200px -140px;
+	font-size: 12px;
+	background: url(../img/bg_header2.png) no-repeat;
+}
+.foot-license span.top100{
+	padding-left: 22px;
+	background-position: -180px -230px;
+}
+.sep{
+	color: #ddd;
+	font-family: arial;
+	margin: 0 5px;
+}
+.foot-license span.year18{
+	padding-left: 22px;
+	background-position: -188px -250px;
+}
+.foot-license span.shzxw{
+	padding-left: 22px;
+	background-position: -180px -270px;
+}
+.foot-license span.shgs{
+	padding-left: 22px;
+	background-position: -180px -290px;
+}
+.foot-license span.police{
+	background-position: 170px 0;
+}
+.foot-lic{
+	width: 820px;
+	margin: 0 auto;
+}
+.foot-copyright{
+	color: #999;
+	text-align: center;
+	line-height: 30px;
+	font-size: 12px;
+}
+.foot-copyright .cx{
+	overflow: hidden;
+	margin: 0 auto;
+	width: 355px;
+	position: relative;
+}
+.foot-copyright .cx .float-one{
+	display: inline-block;
+	width: 112px;
+	height: 40px;
+}
+.float{
+	float: left;
+}
+.foot-copyright .cx .float-last{
+	display: inline;
+	width: 112px;
+	height: 120px;
+}
